@@ -1,0 +1,55 @@
+----------------------------- DATA SCAN QUICK GUIDE ----------------------------
+
+# The data scan is a file located at:
+
+/home/development/automation/datascan/datascan.py
+
+# In order to make it simpler to run the scan, consider adding an alias for the
+# data scan. You can do this by running the following command:
+
+echo "alias scan='python /home/development/automation/datascan/datascan.py'" >> ~/.bash_profile; source ~/.bash_profile
+
+# The following examples will use PCHC, but it could be any client.
+# When the data scan is run, its results are saved to the client's
+# "current" folder in a directory called "data_scans".
+
+# To run the data scan on a client for the latest data, run:
+
+scan pchc
+
+# If you want to run the data scan for a different refresh, add the -r argument:
+
+scan pchc -r 201806
+
+# If you want to manually specify the directory(s) containing the old files
+# for comparison, add the -o argument:
+
+scan pchc -o /home/customers/pchc/current/20180508
+
+# If you want to manually specify the directory(s) containing the new files for
+# comparison, add the -n argument:
+
+scan pchc -n /home/customers/pchc/current/20180606
+
+# You can even manually specify both the old and new directories, and you can
+# also compare files from multiple directories at once:
+
+scan pchc -o /home/customers/pchc/current/20180405 -o /home/customers/pchc/current/20180508 -n /home/customers/pchc/current/20180606
+
+# The default email recipients of the data scan do NOT recieve an email when you
+# run the scan manually. They only get an email when the automatic scan runs.
+
+# If you want to have the data scan email you the results, add the -e email
+# argument (you can add as many "-e <email address>" arguments as you want):
+
+scan pchc -e person.name@email.com
+
+# If you want to add somebody's email address to the default list of recipients
+# for a client, edit the following file:
+
+/home/development/automation/datascan/CLIENT_CONFIG.json
+
+# For more in-depth information about the data scan, please read this file:
+
+/home/development/automation/datascan/README.md
+https://github.com/ForwardHealthGroup/datascan/blob/master/README.md

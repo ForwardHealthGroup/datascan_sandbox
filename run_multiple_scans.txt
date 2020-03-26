@@ -1,0 +1,33 @@
+#!/bin/bash
+cd /data/customers/rwjbarnabas/current/jan_feb/
+
+FOLDERS=$(ls -r)
+NEW=""
+OLD=""
+CLIENT="rwjbarnabas"
+echo "CLIENT:"$CLIENT
+ORIG_PATH=$PWD
+echo "ORIGINAL PATH:"$ORIG_PATH
+DATASCAN='python /data/development/automation/datascan/datascan.py'
+INIT=1
+
+for i in $FOLDERS
+do 
+	if [[ $INIT -eq 1 ]]
+	then
+		NEW=${i}
+		INIT=0
+		echo "Initializing multiple datascans -- starting with newest files"
+		echo "First folder:"$NEW
+	else
+		REFRESH=$(echo $NEW | cut -c1-6)
+		OLD=${i}
+		NEW_PATH=$ORIG_PATH/$NEW
+                OLD_PATH=$ORIG_PATH/$OLD 
+		echo "DATASCAN COMMAND: $DATASCAN $CLIENT -r $REFRESH -n $NEW_PATH -o $OLD_PATH"
+		$DATASCAN $CLIENT -r $REFRESH -n $NEW_PATH -o $OLD_PATH
+		NEW=${OLD}
+		
+	fi
+	echo ""
+done

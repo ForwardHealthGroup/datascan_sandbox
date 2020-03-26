@@ -1,0 +1,47 @@
+id|client_name|active|ds_master|ds_system|ds_origin|start_date|end_date|created_date
+13|ARMC|Y|EMR Data|Meditech|Meditech|2019-08-27|NULL|2019-08-27 07:24:47
+14|ARMC|Y|Claims Data|Claims Adjudication System|IEHP|2019-08-27|NULL|2019-08-27 07:30:18
+15|ARMC|Y|Care Coordination Data|Team of Care|Team of care|2019-08-27|NULL|2019-08-27 07:32:24
+16|ARMC|Y|Care Coordination Data|MD Revolution|MD Revolution|2019-08-27|NULL|2019-08-27 07:40:23
+55|ARMC|Y|Claims Data|Claims Adjudication System|Molina|2019-11-25|NULL|2019-11-25 13:43:28
+56|ARMC|Y|Behavioral Health data|Unknown|Department of Behavioral Health|2019-11-25|NULL|2019-11-25 13:47:09
+43|RUHS|Y|EMR Data|EPIC|EPIC|2019-11-25|NULL|2019-11-25 19:58:46
+44|RUHS|Y|Claims Data|Claims Adjudication System|IEHP|2019-11-25|NULL|2019-11-25 19:59:41
+45|RUHS|N|EMR Data|BCA|BCA|2019-11-25|NULL|2019-11-25 20:02:10
+46|RUHS|N|EMR Data|Invision|Invision|2019-11-25|NULL|2019-11-25 20:03:26
+47|RUHS|N|EMR Data|McKesson|McKesson|2019-11-25|NULL|2019-11-25 20:07:27
+48|RUHS|N|EMR Data|NextGen|NextGen|2019-11-25|NULL|2019-11-25 20:07:53
+49|RUHS|N|EMR Data|Novius|Novius|2019-11-25|NULL|2019-11-25 20:08:14
+50|RUHS|N|Pharmacy data|Pharmacy|Pharmacy|2019-11-25|NULL|2019-11-25 20:10:20
+51|RUHS|N|Lab data|Quest|Quest|2019-11-25|NULL|2019-11-25 20:10:41
+52|RUHS|N|EMR Data|Soarian|Soarian|2019-11-25|NULL|2019-11-25 20:11:03
+53|RUHS|N|EMR Data|Vantage|Vantage|2019-11-25|NULL|2019-11-25 20:11:22
+54|RUHS|N|Unknown|Medication_rec|Medication_rec|2019-11-25|NULL|2019-11-25 20:11:43
+57|VNSNY|Y|Care Coordination Data|Altruista|Altruista|2019-11-25|NULL|2019-11-25 14:03:51
+58|AAPHC|Y|EMR Data|eClinicalworks|eClinicalWorks|2019-11-25|NULL|2019-11-25 15:45:58
+17|Fresenius|Y|EMR Data|AthenaHealth|Athena Health|2019-08-27|NULL|2019-08-27 11:08:07
+40|Fresenius|Y|EMR Data|eCube|eCube|2019-11-25|NULL|2019-11-25 19:53:42
+41|Fresenius|Y|EMR Data|Acumen MD|Acumen MD|2019-11-25|NULL|2019-11-25 19:55:39
+42|Fresenius|Y|EMR Data|NextGen|NextGen|2019-11-25|NULL|2019-11-25 19:56:51
+59|LCDP|Y|EMR Data|eClinicalworks|eClinicalWorks|2019-11-25|NULL|2019-11-25 17:49:13
+60|MSHC|Y|EMR Data|Cerner|Cerner|2019-11-18|NULL|2019-11-25 15:51:29
+61|PCHC|Y|EMR Data|Centricity|Centricity|2019-11-25|NULL|2019-11-25 15:53:32
+38|Healthlinc|Y|Claims Data|Unknown|MHS Centene|2019-11-25|NULL|2019-11-25 15:57:59
+62|Healthlinc|Y|EMR Data|Greenway|Greenway Medical|2019-11-25|NULL|2019-11-25 15:56:54
+64|SWVM|Y|EMR Data|AthenaHealth|Athena 1|2019-12-02|NULL|2019-12-02 10:58:24
+65|SWVM|Y|EMR Data|AthenaHealth|Athena 2|2019-12-02|NULL|2019-12-02 11:00:10
+25|RWJB|Y|EHR|Cerner|RWJBH|2019-09-16|NULL|2019-09-16 11:53:02
+27|RWJB|Y|Practice Management |AllScripts Practice Management System|RWJBH|2019-09-16|NULL|2019-09-16 12:01:22
+28|RWJB|Y|EHR|AllScripts Touchworks|RWJBH|2019-09-16|NULL|2019-09-16 12:01:36
+30|RWJB|Y|Client Generated|Data Dictionary|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+31|RWJB|Y|Claims Data|Horizon BCBSNJ_Claims|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+32|RWJB|Y|Claims Data|CMS|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+33|RWJB|Y|Client Generated|Uncategorized|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+34|RWJB|Y|Client Generated|Member Roster|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+35|RWJB|Y|Client Generated|Physician Roster|RWJBH|2019-10-02|NULL|2019-10-02 12:01:36
+36|RWJB|Y|EHR|Centricity|RWJBH|2019-10-21|NULL|2019-10-21 13:10:21
+37|RWJB|Y|Client Generated|Cerner Data Dictionary|RWJBH|2019-11-06|NULL|2019-11-06 09:05:44
+63|SJMC|Y|EMR Data|AthenaHealth|Athena Health|2019-11-27|NULL|2019-11-27 10:19:13
+66|BCBSSC|Y|Claims Data|Claims Adjudication System|BCBSSC|2020-02-17|NULL|2020-02-20 09:04:08
+67|BCBSSC|Y|Client Generated|Unknown|BCBSSC|2020-02-17|NULL|2020-02-20 09:56:24
+0|Test|N|Test|Test|Test|NULL|NULL|NULL

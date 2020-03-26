@@ -1,0 +1,249 @@
+
+{
+  "pchc": {
+    "client_dir": "/home/customers/pchc/dev/customers-test/pchc",
+    "client_id": 1009,
+    "source_id": 61,
+    "database": "datateam",
+    "normalization_script": "pchc_standardize_filenames"
+  },
+  "dog": {
+    "client_dir": "/home/customers/pchc/",
+    "client_id": 1009,
+    "database": "portal_test2",
+    "source_id": 61,
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "vnsny": {
+    "client_dir": "/home/customers/vnsny/",
+    "client_id": 1003,
+    "database": "portal_test2",
+    "source_id": 57,
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "lcdp": {
+    "client_dir": "/home/customers/lcdp/",
+    "client_id": 1007,
+    "database": "portal_test2",
+    "source_id": 59,
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "swvm": {
+    "client_dir": "/home/customers/sunsetidcare/",
+    "client_id": 1011,
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "albany": {
+    "client_dir": "/home/customers/albany/",
+    "client_id": 1005,
+    "database": "portal_test2",
+    "source_id": 58,
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "healthlinc": {
+    "client_dir": "/home/customers/healthlinc/",
+    "client_id": 1010,
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "milesquare": {
+    "client_dir": "/home/customers/milesquare/",
+    "client_id": 1008,
+    "database": "portal_test2",
+    "source_id": 60,
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "riverside": {
+    "client_dir": "/home/customers/riverside/",
+    "client_id": 1002,
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "stjohn": {
+    "client_dir": "/home/customers/stjohn/",
+    "client_id": 1018,
+    "source_id": 63,
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "armc": {
+    "client_dir": "/home/customers/armc/",
+    "client_id": 1001,
+    "database": "armc_staging",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "fresenius-acumen": {
+    "client_dir": "/home/customers/fresenius/",
+    "client_id": 1006,
+    "source_id": 41,
+    "current_dir": "/home/customers/fresenius/current/acumen/",
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "fresenius-athena": {
+    "client_dir": "/home/customers/fresenius/",
+    "client_id": 1006,
+    "source_id": 17,
+    "current_dir": "/home/customers/fresenius/current/athena/",
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "rwjbarnabas": {
+    "client_dir": "/home/customers/rwjbarnabas/",
+    "client_id": 1013,
+    "current_dir": "/home/customers/rwjbarnabas/current/",
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "davita": {
+    "client_dir": "/home/customers/davita/",
+    "client_id": 1012,
+    "current_dir": "/home/customers/davita/current/",
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  },
+  "fresenius-ecube": {
+    "client_dir": "/home/customers/fresenius/",
+    "client_id": 1006,
+    "source_id": 40,
+    "current_dir": "/home/customers/fresenius/current/ecube/",
+    "database": "portal_test2",
+    "recipients": [
+      "brennan.mowry@forwardhealthgroup.com",
+      "hank.hopkins@forwardhealthgroup.com",
+      "liam.perkins@forwardhealthgroup.com",
+      "joshua.tull@forwardhealthgroup.com",
+      "melissa.brendemuehl@forwardhealthgroup.com",
+      "daisy.jiang@forwardhealthgroup.com",
+      "subbu.ravi@forwardhealthgroup.com",
+      "akhila.jacob@forwardhealthgroup.com"
+    ]
+  }
+}
